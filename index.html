@@ -1,0 +1,140 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>CV DSI202</title>
+
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+    <!-- Credly -->
+    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+</head>
+<body>
+    <main class="resume-contents">
+        <section class="left-section">
+            <div class="left-section-contents">
+                <div class="profile">
+                    <img class="profile-image" src="{% static 'img/profile.jpg' %}" alt="Profile image">
+                    <p class="name">Thanarak Leenanon</p>
+                    <p class="profession">Student at Thammasat University</p>
+                </div>
+                <div class="contact-info">
+                    <p class="left-title">Contact Info</p>
+                    <ul>
+                        <li><i class="fa fa-phone"></i>+66 064809xxxx
+                        </li>
+                        <li><i class="fa fa-envelope"></i>bzanklee49@gmail.com
+                        </li>
+                        <li><i class="fa fa-github"></i>ThanarakLee
+                        </li>
+                        <li><i class="fa fa-linkedin"></i>thanarak-leenanon-974aba204
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <p class="left-title">Skills</p>
+                    <ul>
+                        <li><p>Python, SQL</p></li>
+                        <li><p>Linux, Bash/Shell</p></li>
+                        <li><p>Data Processing</p></li>
+                        <li><p>PostgresSQL</p></li>
+                        <li><p>MySQL</p></li>
+                        <li><p>Azure Cloud Data Services</p></li>
+                        <li><p>Azure Data Warehouse</p></li>
+                        <li><p>Azure Data Engineer</p></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="right-section">
+            <div class="right-section-contents">
+                <section class="about gap">
+                    <div class="right-title">Summary</div>
+                    <p class="about-me-contents">
+                        Currently are studying in data science and innovation, 
+                        used google cloud platform to work with project data engineer,
+                         have a passion for working with large amounts of data. 
+                         and have the ability to work as a team with others.
+                    </p>
+                </section>
+
+                <section class="experience gap">
+                    <div class="right-title">Education</div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">UNIVERSITY NAME</p>
+                            <p class="exp-time-period">2022-2026</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Thammasat University</p>
+                            <p class="exp-desc">
+                                B.Sc. (Data Science and Innovation)
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about gap">
+                    <div class="right-title">project</div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">Project <br>Data Engineer</p>
+                            <p class="awards-time-period">12 Septamber 2022</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="project-desc">
+                                It is a project that represents the workflow of a Data Engineer starting from data extraction to creating a dashboard. 
+                                In this project, Google Cloud Platform and Google Colab are mainly used for work.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="awards gap">
+                    <div class="right-title">Certificates</div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">Microsoft</p>
+                            <p class="awards-time-period">07 Aprill 2021 <br>12 May 2021</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Certifieds & Badges</p>
+                            <p class="awards-desc">
+                                MTA: Database Fundamentals <br>
+                                Microsoft Certified: Azure Data Fundamentals
+                            </p>
+                        </div>
+                    </div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">Cisco</p>
+                            <p class="awards-time-period">05 January 2021</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Certifieds & Badges</p>
+                            <p class="awards-desc">
+                                Introduction to Cybersecurity
+                            </p>
+                            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="099afbd7-1856-4a7b-babd-a013b257cf5e" data-share-badge-host="https://www.credly.com"></div>
+                            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="22e8e4e3-b668-473c-ad2d-9ae9386ece69" data-share-badge-host="https://www.credly.com"></div>
+                            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="93df4662-6556-49d4-a43f-c6c3f383d4a6" data-share-badge-host="https://www.credly.com"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
